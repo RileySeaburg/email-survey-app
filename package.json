@@ -1,0 +1,33 @@
+{
+  "name": "email-survey-app",
+  "version": "0.0.1",
+  "description": "A fullstack application that sends emails with surveys.",
+  "main": "index.js",
+  "engines": {
+    "node": "12.18.3",
+    "yarn": "1.22.4"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RileySeaburg/email-survey-app.git"
+  },
+  "keywords": [
+    "Riley",
+    "Seaburg",
+    "Javascript",
+    "Fullstack",
+    "emails"
+  ],
+  "author": "Riley Seaburg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RileySeaburg/email-survey-app/issues"
+  },
+  "homepage": "https://github.com/RileySeaburg/email-survey-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
