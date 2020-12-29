@@ -1,5 +1,12 @@
 const express = require('express');
+const Mongoose = require('mongoose');
+const keys = require('./config/keys');
 require('./services/passport');
+
+Mongoose.connect(keys.mongoURI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 const app = express();
 require('./routes/authRoutes')(app);
